@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 h1{
@@ -12,7 +12,7 @@ h2{
 p{
     text-align: justify;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -44,4 +44,31 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-experimence{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    padding: 5px 20px;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#HTML-Learner{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#CSS-Learner{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(255, 145, 0), cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
+
 }
